@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigo Secreto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-content">
+        <!-- Banner con imagen -->
+        <div class="header-banner">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhWvYAaeaWETv-dZpN-JtW-jI4n2cVcvZnLQ&s" alt="Amigo Secreto" class="banner-image">
+            <h1 class="main-title">Mi Amigo Secreto</h1>
+        </div>
+
+        <!-- Sección de entrada -->
+        <div class="input-section">
+            <h2 class="section-title">Agrega los nombres</h2>
+            <div class="input-wrapper">
+                <input type="text" class="input-name" id="input-name" placeholder="Escribe un nombre">
+                <button class="button-add" id="add-button">Añadir</button>
+            </div>
+
+            <!-- Lista de nombres -->
+            <ul id="name-list"></ul>
+
+            <!-- Botón de sortear -->
+            <button class="button-draw" id="draw-button">¡Sortear!</button>
+
+            <!-- Resultado del sorteo -->
+            <div id="result" class="result-list"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
